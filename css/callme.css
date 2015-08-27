@@ -1,3 +1,10 @@
+div {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 150ms;
+  -webkit-transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+}
+
 .wrapperOutside {
   display: table;
   width: 100vw;
@@ -8,6 +15,10 @@
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+h1 span{
+	font-weight: 700;
 }
 
 
