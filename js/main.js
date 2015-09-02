@@ -240,10 +240,10 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
     Screenshots_Carousel: function() {
 	    $(".owl-carousel-screenshots").owlCarousel({
 			loop:true,
-		    items : 7,
+		    items : 6,
 			itemsDesktop : [1200,7], 
-			itemsDesktopSmall : [900,6], 
-			itemsTablet: [600,4], 
+			itemsDesktopSmall : [900,5], 
+			itemsTablet: [600,3], 
 			itemsMobile : [400,2]     
 	    });	
     },    
