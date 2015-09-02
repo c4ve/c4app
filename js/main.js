@@ -241,7 +241,7 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
 	    $(".owl-carousel-screenshots").owlCarousel({
 			loop:true,
 		    items : 6,
-			itemsDesktop : [1200,7], 
+			itemsDesktop : [1200,6], 
 			itemsDesktopSmall : [900,5], 
 			itemsTablet: [600,3], 
 			itemsMobile : [400,2]     
